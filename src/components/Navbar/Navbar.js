@@ -24,11 +24,12 @@ const Navbar = () => {
           <a className="nav-link active" aria-current="page" href="#contact-me">Contact Me</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#footer">Footer</a>
+          <Link to="/my-info" className="nav-link active" aria-current="page">About me</Link>
         </li>
-        
-
-        
+        <li className="nav-item">
+          <Link to="/blogs" className="nav-link active" aria-current="page">Blogs</Link>
+        </li>
+      
       </ul>
     </div>
   </div>

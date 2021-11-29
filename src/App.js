@@ -13,6 +13,8 @@ import FancyBikes from "./components/FancyBikes/FancyBikes";
 import Home from "./components/Home/Home";
 import TravellingIsFun from "./components/TravellingIsFun/TravellingIsFun";
 import DoctorsOfKhulnaCity from "./components/DoctorsOfKhulnaCity/DoctorsOfKhulnaCity";
+import Blogs from "./components/Blogs/Blogs";
+import MyInfo from "./components/MyInfo/MyInfo";
 
 function App() {
   return (
@@ -41,6 +43,14 @@ function App() {
 
         <Route path="/doctors-of-khulna-city">
           <DoctorsOfKhulnaCity></DoctorsOfKhulnaCity>
+        </Route>
+
+        <Route path="/blogs">
+          <Blogs></Blogs>
+        </Route>
+
+        <Route path="/my-info">
+          <MyInfo></MyInfo>
         </Route>
 
       </Switch>

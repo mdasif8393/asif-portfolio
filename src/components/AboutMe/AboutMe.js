@@ -6,7 +6,7 @@ import ParticlesBg from 'particles-bg'
 const AboutMe = () => {
     return (
         <div className="container-fluid" style={{marginTop:'60px'}}>
-            <ParticlesBg color="#7510f7" type="cobweb"  bg={true} />
+            <ParticlesBg color="#000000" type="cobweb"  bg={true} />
             <div className="row d-flex align-items-center">
 
                 <div className="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-end" style={{marginLeft:'-20px'}}>
@@ -17,11 +17,10 @@ const AboutMe = () => {
                         loop={Infinity}
                         wrapper="b"
                         steps={[
-                            ' Full Stack Web Developer (MERN)',
-                            1000,
                             ' React Front End Web Developer',
                             1000,
-                            ' React '
+                            ' Full Stack Web Developer',
+                            1000,
                         ]}
                     />
                         </h4>
